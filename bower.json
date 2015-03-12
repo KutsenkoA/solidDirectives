@@ -1,0 +1,22 @@
+{
+  "name": "solidDirectives",
+  "version": "0.0.1",
+  "authors": [
+    "akutsenko <akutsenko@qualium-systems.com.ua>"
+  ],
+  "description": "Angular Solid Directives",
+  "main": "build/solid-directives.js",
+  "keywords": [
+    "forms",
+    "directives",
+    "validators"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
