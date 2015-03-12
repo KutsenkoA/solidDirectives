@@ -1,0 +1,34 @@
+{
+  "name": "solidDirectives",
+  "version": "0.0.1",
+  "description": "Angular Solid Directivies",
+  "main": "build/solid-directivies",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "gulp": "~3.8.11",
+    "gulp-concat": "~2.5.2",
+    "gulp-rigger": "~0.5.8",
+    "gulp-uglify": "~1.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KutsenkoA/solidDirectivies.git"
+  },
+  "keywords": [
+    "angular",
+    "forms",
+    "input",
+    "directivies"
+  ],
+  "author": "Kutsenko Andrey",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KutsenkoA/solidDirectivies/issues"
+  }
+}

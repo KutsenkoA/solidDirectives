@@ -1,0 +1,1 @@
+"use strict";angular.module("solidDirectives",[]).directive("sdPrefix",function(){return{restrict:"A",scope:{sdPrefix:"@"},link:function(e,i){var r=function(){i.val()===e.sdPrefix?i.val(""):i.val().length&&0!==i.val().indexOf(e.sdPrefix)&&i.val(e.sdPrefix+i.val())};i.val().length&&r(),i.on("keyup",r)}}});
