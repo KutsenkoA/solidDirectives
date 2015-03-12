@@ -7,7 +7,7 @@ var
 
 gulp.task('build', function() {
   gulp.src('src/*.js')
-    .pipe(concat('solid-directivies.js'))
+    .pipe(concat('solid-directives.js'))
     .pipe(uglify())
     .pipe(gulp.dest('build'));
 });
